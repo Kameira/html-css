@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: opx;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 68px;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-family: "Passion One", sans-serif;
+    font-size: 136px;
+}
+
+.fontnormal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.fontpoema {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 47px;
+}
+
+.white {
+    background-color: white;
+}
+
+#bg1 {
+    background-image: url(imagens/background001.jpg);
+}
+
+#bg2 {
+    background-image: url(imagens/background002.jpg);
+}
+
+#foto1 {
+    color: white;
+}
+
+#foto2 {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
