@@ -6,7 +6,7 @@
 
 *{
     margin: 0px;
-    padding: opx;
+    padding: 0px;
 }
 
 body {
@@ -19,6 +19,23 @@ header {
     font-size: 68px;
     text-align: center;
     padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 h1 {
@@ -34,9 +51,11 @@ h1 {
 .fontpoema {
     font-family: "Sour Gummy", sans-serif;
     font-size: 47px;
-    margin-left: 10px;
     padding: 50px;
+    line-height: 2em;
+    padding: 30px;    
 }
+
 
 .white {
     background-color: white;
@@ -44,21 +63,38 @@ h1 {
 
 #bg1 {
     background-image: url(imagens/background001.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 #bg2 {
     background-image: url(imagens/background002.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #foto1 {
     color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    min-width: 300px;
+    max-width: 600px;
+    padding: 0;
 }
 
 #foto2 {
     color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    min-width: 300px;
+    max-width: 600px;
+    padding: 0;
 }
 
 footer {
     background-color: black;
     color: white;
+    text-align: center;
 }
